@@ -1,0 +1,38 @@
+<ion-app>
+  <ion-menu menuId="main-menu" content-id="main">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Sweetscape</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle>
+           <ion-item routerLink="/Dashboard">
+          <ion-icon name="analytics-sharp" slot="start"></ion-icon>
+          <ion-label>Dashboard</ion-label>
+        </ion-item>
+        </ion-menu-toggle>
+       <ion-menu-toggle>
+        <ion-item routerLink="/BookAppointment">
+          <ion-icon name="bookmarks-outline" slot="start"></ion-icon>
+          <ion-label>Book Appointment</ion-label>
+        </ion-item>
+       </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/Inventory">
+          <ion-icon name="cart-sharp" slot="start"></ion-icon>
+          <ion-label>Inventory</ion-label>
+        </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/user">
+          <ion-icon name="person" slot="start"></ion-icon>
+          <ion-label>User</ion-label>
+         </ion-item>
+        </ion-menu-toggle> 
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

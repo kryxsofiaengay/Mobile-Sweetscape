@@ -1,0 +1,46 @@
+ion-card-content {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    color:darksalmon;
+    margin-top: 10px;
+    size: 3px;
+}
+ion-card {
+    height: 75%;
+    width: 50%;
+    margin-bottom: 0px;
+    margin: 10%;
+    margin-left: 25px;
+    
+}
+ion-icon{
+    margin-left: 80%;
+    font-size: 50px;
+}
+ion-chip{
+    --color: rgb(255, 96, 120);
+    font-size: 15px;
+}
+img{
+    border-radius: 25px;
+
+}
+h1 {
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+ion-button {
+    font-size: 20px;
+    padding-left: 35%;
+    color:crimson;
+    --background: #FD8A8A;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    --border-radius: 2px;
+}
+.ion-btn {
+    color:crimson;
+    --background: #FD8A8A;
+}
