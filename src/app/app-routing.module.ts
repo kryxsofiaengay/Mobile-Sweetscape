@@ -12,10 +12,6 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'dashboard',
-    loadChildren: () => import('./pages/dashboard/dashboard.module').then( m => m.DashboardPageModule)
-  },
-  {
     path: 'book-appointment',
     loadChildren: () => import('./pages/book-appointment/book-appointment.module').then( m => m.BookAppointmentPageModule)
   },
@@ -63,6 +59,11 @@ const routes: Routes = [
   {
     path: 'reviewsubmit',
     loadChildren: () => import('./pages/reviewsubmit/reviewsubmit.module').then( m => m.ReviewsubmitPageModule)
+  },
+  
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./pages/dashboard/dashboard.module').then( m => m.DashboardPageModule)
   },
 ];
 
